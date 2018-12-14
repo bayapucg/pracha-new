@@ -279,7 +279,6 @@ color: #000;
 .button.medium {
 	padding: 10px 30px;
 	font-size: 17px;
-	margin-top:30px;
 }
 .button.large {
 	padding: 15px 35px;
@@ -1190,7 +1189,7 @@ margin-bottom: 00px;
 ================================================================== */
 
 .callout {
-	padding: 35px 0;
+	padding: 85px 0 35px;
 	color: #fff;
 	border-bottom: solid 1px #262626;
 }
@@ -3331,4 +3330,483 @@ span.error{
 	padding: 3rem!important
 }
 
-  
+
+/*========================================
+   Get a Quote         
+==========================================*/
+
+.get-quote{
+    position: fixed;
+    top: 50%;
+    right: -67px;
+    z-index: 99;
+    -webkit-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+}
+
+.get-quote p{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px;
+    background-color: #0aadff;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.get-quote p i{
+    margin-left: 5px;
+}
+
+.get-quote p:hover{
+    background-color: #008ed6;
+}
+
+.gq-form{
+    position: fixed;
+    top: 50%;
+    right: 58px;
+    z-index: 99;
+    background-color: #ffffff;
+    -webkit-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+}
+
+.gq-form .formOuter{
+    padding: 20px;
+}
+
+
+
+/*========================================
+   Services           
+==========================================*/
+
+
+.services{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Services Banner Mask */
+.services .banner-mask{
+    background-color: rgba(0, 0, 0, .6);
+    height: 80vh;
+}
+
+
+/* Services Body */
+.services .services-body{
+    background-color: #fff;
+    padding: 10px 40px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* About Service */
+.about-service h2{
+    font-weight: 700;
+    color: #ff9800;
+    text-transform: capitalize;
+}
+
+.about-service span{
+    color: #192f5d;
+}
+
+
+/* Service Descrpition */
+.service-desc h4, .service-platforms h4{
+    font-weight: 700;
+    color: #404040;
+    text-transform: capitalize;
+}
+
+
+/* Service Platforms */
+.s-platforms h5{
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.s-platforms .platform-img{
+    margin-bottom: 15px;
+}
+
+.s-platforms .platform-img i{
+    font-size: 45px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 25px;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
+}
+
+.s-platforms p{
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.s-platforms a:hover i{
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+
+
+/* Platforms */
+.s-platform-1{
+    background-color: #72a2c0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.s-platform-1 i{
+    color: #72a2c0;
+}
+
+.s-platform-2{
+    background-color: #00743f;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.s-platform-2 i{
+    color: #00743f;
+}
+
+.s-platform-3{
+    background-color: #f2a104;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.s-platform-3 i{
+    color: #f2a104;
+}
+
+.s-platform-4{
+    background-color: #a3586d;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.s-platform-4 i{
+    color: #a3586d;
+}
+
+.s-platform-5{
+    background-color: #5c4a72;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.s-platform-5 i{
+    color: #5c4a72;
+}
+
+.s-platform-6{
+    background-color: #c05640;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.s-platform-6 i{
+    color: #c05640;
+}
+
+.s-platform-7{
+    background-color: #8f4f06;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.s-platform-7 i{
+    color: #8f4f06;
+}
+
+.s-platform-8{
+    background-color: #b59b2d;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.s-platform-8 i{
+    color: #b59b2d;
+}
+
+
+/* Services Banners */
+.ma-banner {
+    background-image: url('../images/form-bg4.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+
+
+
+
+
+/*========================================
+   Services - Sub         
+==========================================*/
+
+
+.service-platforms-sub{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Services-Sub Banners */
+.sps-banner {
+    background-image: url('../images/form-bg4.jpg');
+    background-size: cover;
+    height: 60vh;
+}
+
+
+/* Services-Sub Banner Mask */
+.service-platforms-sub .banner-mask{
+    background-color: rgba(0, 0, 0, .6);
+    height: 60vh;
+}
+
+
+/* Service Platform Heading */
+.service-platforms-sub .captionText {
+	color: #fff;
+	position: absolute;
+	z-index: 12;
+	height: 65%;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+.service-platforms-sub .captionText h2 {
+	font-size: 40px;
+	line-height: 80px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 5px #000;
+}
+
+/* Service Platform Body */
+.service-platforms-sub .service-platform-body{
+    margin-top: -50px;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* About Platform */
+.about-platform{
+    background-color: #fff;
+    padding: 20px 40px 30px;
+}
+
+.about-platform h3{
+    font-weight: 700;
+    color: #404040;
+    text-transform: capitalize;
+}
+
+.about-platform ul li{
+    margin-bottom: 10px;
+}
+
+.about-platform ul li:before{
+    content: '\f0da';
+    font-family: 'fontawesome';
+    margin-right: 10px;
+    font-family: 14px;
+}
+
+
+/* Platform Benefits */
+.platform-benefits{
+    background-color: #eee;
+    padding: 40px 100px;
+}
+
+.platform-benefits h3{
+    font-weight: 700;
+    color: #ff9800;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.platform-benefits ul li{
+    margin-bottom: 20px;
+    color: #000;
+    text-align: justify;
+}
+
+.platform-benefits ul li:before{
+    content: '\f00c';
+    font-family: 'fontawesome';
+    margin-right: 10px;
+    font-family: 14px;
+}
+
+
+/* Responsive */
+@media only screen and (max-width : 1200px) {
+    .service-platforms-sub .captionText h2 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .service-platforms-sub .captionText {
+        height: 65%;
+    }
+
+    .service-platforms-sub .captionText h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width : 667px) {
+    .service-platforms-sub .captionText h2 {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    .service-platforms-sub .captionText {
+        height: 75%;
+    }
+    
+    .platform-benefits{
+        background-color: #eee;
+        padding: 40px 40px;
+    }
+    
+    .get-quote{
+        right: -67px;
+    }
+    
+    .get-quote a{
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slider {
+    width: 500px;
+    top: 100px;
+    position: absolute;
+    z-index: 99;
+}
+
+#header {
+    width: 260px;
+    height: 520px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #d8d8d8;
+    margin-left: 40px;
+    padding: 20px 40px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px gray
+}
+
+#sidebar {
+    position: absolute;
+    top: 180px;
+    left: 113px;
+    box-shadow: 0 0 8px gray
+}
+
+#sidebar1 {
+    position: absolute;
+    top: 180px;
+    left: 113px;
+    box-shadow: 0 0 8px gray
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif
+}
+
+input[type=text] {
+    margin-top: 10px;
+    padding: 6px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 3px solid #98d0f1
+}
+
+h4 {
+    font-size: 15px
+}
+
+div#title {
+    position: absolute;
+    top: 300px;
+    left: 650px
+}
+
+select {
+    padding: 6px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 3px solid #98d0f1
+}
+
+textarea {
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 3px solid #98d0f1;
+    margin-top: 10px;
+    height: 80px;
+    width: 100%
+}
+
+button {
+    background: #2bc1f2;
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 8px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 25px
+}

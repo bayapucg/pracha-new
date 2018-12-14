@@ -1,84 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="charset=UTF-8" />
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Prachatech</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prachatech</title>
 
+    <!-- Favicon  -->
+    <link rel="icon" href="http://prachatech.com/assets/vendor/img/fav.png">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
 
-  <!-- Favicon  -->
-  <link rel="icon" href="http://prachatech.com/assets/vendor/img/fav.png">
-<link rel="stylesheet" href="css/fontawesome/css/all.css" >
+    <!-- Bootstrap 3.3.7 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!--Owl Carousel 2  CSS -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
 
-  <!-- Bootstrap 3.3.7 CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Animate CSS for WOW Effects-->
+    <link href="css/animate.css" rel="stylesheet">
 
-  <!--Owl Carousel 2  CSS -->
-  <link href="css/owl.carousel.css" rel="stylesheet">
+    <!--Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
-  <!--Animate CSS for WOW Effects-->
-  <link href="css/animate.css" rel="stylesheet">
+    <!--Theme Switcher -->
+    <link href="css/demo.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" id="theme-switcher">
 
-  <!--Custom Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/custom.css" rel="stylesheet">
+    <!--Custom Stylesheet -->
+    <link href="css/responsive.css" rel="stylesheet">
 
+    <!--Google Fonts API-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,900" rel="stylesheet">
 
-  
-  <!--Theme Switcher -->
-  <link href="css/demo.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" id="theme-switcher">
-
-  <!--Custom Stylesheet -->
-  <link href="css/responsive.css" rel="stylesheet">
-
-
-
-  <!--Google Fonts API-->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,900" rel="stylesheet">
-
-  <!--Font Awesome 5.0.8 for Icons  -->
-  <link href="../../../../use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!--Font Awesome 5.0.8 for Icons  -->
+    <link href="../../../../use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <!-- Page Preloader -->
-  <div class="pagePreloader"> </div>
-  <!-- .Page Preloader -->
+    <!-- Page Preloader -->
+    <div class="pagePreloader"> </div>
+    <!-- .Page Preloader -->
+    
+<!--
+    <div class="get-quote">
+        <a href="#"> 
+            <p>Get a quote <i class="fas fa-location-arrow"></i></p>
+        </a> 
 
+        <div class="gq-form">
+            <div class="themeColor">Stay in touch</div>
+            <div class="formOuter">
+                <form id="" action="#">
+                    <input type="text" class="inputText" placeholder="Name" name="namef">
+                    <input type="email" class="inputText" placeholder="Email" name="emailf">
+                    <textarea class="inputText" placeholder="Write message" name="messagef"></textarea>
+                    <input type="submit" value="Submit" class="button btn-theme small button-fill-width">
+                </form>
+            </div>
+        </div>
 
-  <!-- HeaderOuter -->
-  <header class="transparentHeader">
-    <!-- Add .transparentHeader class  for transparent header  -->
-    <!--  Nav Bar  -->
-    <nav class="clearfix navigation">
-      <div class="container clearfix">
-        <div class="row">
-          <div class="col-sm-12">
-            <a href="index.php" class="logo">
-   <img src="images/logo.png" class="" alt="">
-            </a>
-            <div class="navigationTop">
-              <a href="javascript:void(0)" class="mobMenu toogle">
-                <i></i>
-                <i></i>
-                <i></i>
-              </a>
-              <div class="overLayMunu">
-                <img src="images/close-128.png" class="closeMenu" alt=""> </div>
-              <ul class="topMenu topNAv">
-                <li class="activeMenu">
-                  <a href="index.php">Home </a>
-                </li>
-				<li class="activeMenu">
-                  <a href="#">About Us </a>
-                </li>
-                <!--<li class="dropDown megaDropDown">
+    </div>
+-->
+    
+
+<!-- Sliding div starts here -->
+<div id="slider" style="right:-342px;">
+    <div id="sidebar" onclick="open_panel()"><img src="https://umpiretaxsolutions.com/public/img/cust.png"></div>
+    <div id="header">
+        <h2>Contact Form</h2>
+        <p>This is my form.Please fill it out.It's awesome!</p>
+        <input name="dname" type="text" value="Your Name">
+        <input name="demail" type="text" value="Your Email">
+        <h4>Query type</h4>
+        <select>
+            <option>General Query</option>
+            <option>Presales</option>
+            <option>Technical</option>
+            <option>Others</option>
+        </select>
+        <textarea>Message</textarea>
+        <button>Send Message</button>
+    </div>
+</div>
+
+    <!-- HeaderOuter -->
+    <header class="transparentHeader">
+        <!-- Add .transparentHeader class  for transparent header  -->
+        <!--  Nav Bar  -->
+        <nav class="clearfix navigation">
+            <div class="container clearfix">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <a href="index.php" class="logo">
+                            <img src="images/logo.png" class="" alt="">
+                        </a>
+                        <div class="navigationTop">
+                            <a href="javascript:void(0)" class="mobMenu toogle">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </a>
+                            <div class="overLayMunu">
+                                <img src="images/close-128.png" class="closeMenu" alt=""> </div>
+                            <ul class="topMenu topNAv">
+                                <li class="activeMenu">
+                                    <a href="index.php">Home </a>
+                                </li>
+                                <li class="activeMenu">
+                                    <a href="#">About Us </a>
+                                </li>
+                                <!--<li class="dropDown megaDropDown">
                   <a href="#"> Pages (Mega Menu) </a>
                   <ul class="clearfix">
                     <div class="subMenuBox col-sm-3">
@@ -156,48 +192,48 @@
                     </div>
                   </ul>
                 </li>-->
-                <li class="dropDown">
-                  <a href="#"> Our Services </a>
-                  <ul>
-                    <li>
-                      <a href="#">Web Designing</a>
-                    </li>
-                    <li>
-                      <a href="#">Web Development</a>
-                    </li>
-                    <li>
-                      <a href="#">Mobile Applications</a>
-                    </li>
-                    <li>
-                      <a href="#">Digital Marketing</a>
-                    </li>
-                    <li>
-                      <a href="#">Software Maintenance</a>
-                    </li>
-                    <li>
-                      <a href="#">E-Commerce</a>
-                    </li>
-                  
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Portfolio </a>
-                </li>
-                <li>
-                  <a href="#">Careers </a>
-                </li> 
-				<li>
-                  <a href="#">Blog </a>
-                </li>
-                <li>
-                  <a href="#">Contact us </a>
-                </li>
-              </ul>
+                                <li class="dropDown">
+                                    <a href="#"> Our Services </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Web Designing</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Web Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="mobile-applications.php">Mobile Applications</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Digital Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Software Maintenance</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">E-Commerce</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Portfolio </a>
+                                </li>
+                                <li>
+                                    <a href="#">Careers </a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog </a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact us </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!--  .Nav Bar -->
-  </header>
-  <!-- .HeaderOuter -->
+        </nav>
+        <!--  .Nav Bar -->
+    </header>
+    <!-- .HeaderOuter -->
